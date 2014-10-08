@@ -1,0 +1,5 @@
+HowTo: Use bash For Loop In One Line
+The syntax is as follows to run for loop from the command prompt.
+for i in {1..5}; do COMMAND-HERE; done
+OR
+for((i=1;i<=10;i+=2)); do echo "Welcome $i times"; done
